@@ -192,5 +192,7 @@ def main():
 if __name__ == '__main__':
     main()
 
+#I added this next line
+os.environ['PYTHONINSPECT'] = '1'
 
 # vim: set expandtab:
